@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music History</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="logo-titulo">
+            <!-- logo e link para pagina inicial -->
+            <a class="navbar-brand" href="pagina_primaria.html">
+                <img src="images/logo.png" alt="Logo" id="logo-navbar">
+            </a>
+            <div>
+                <h1>Music History</h1>
+                <h2 id="saudacao-usuario"></h2>
+            </div>
+        </div>
+        <div>
+            <input id="input-busca" type="text" placeholder="Digite o nome da banda a ser informada">
+            <button id="botao-busca" onclick="iniciarBuscas()">Buscar</button>
+        </div>
+    </header>
+
+    <section class="carousel-container">
+        <!-- O carrossel será inserido aqui pelo script.js -->
+    </section>
+
+    <main class="card-list-main">
+        <section class="card-container">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div id="data-hora"></div>
+        <ul class="footer-links">
+            <li>
+                <a href="https://github.com/BrunoHFRamos">GitHub</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/brunno_hfr?igsh=Mzk3Z2gya3FocHl4">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+    <script src="footer.js"></script>
+</body>
+</html>
